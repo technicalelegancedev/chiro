@@ -1,0 +1,51 @@
+/* Add here all your css styles (customizations) */
+@import "_custom.variables.scss";
+#logoWording {
+  //color: $g-color-primary;
+}
+
+#logobutt {
+  //padding-top: 50px;
+}
+
+.hamburger-inner {
+  background-color: $g-color-primary;
+}
+
+
+//p {
+//  font-size: 20px;
+//}
+
+#logoWording {
+  font-size: 20px;
+}
+
+@media (max-width: 576px) {
+  #logoWording {
+    font-size: 15px;
+    //margin-bottom: 0px;
+  }
+
+  //p {
+  //  font-size: 20px;
+  //}
+
+  //.socialMediaIcon {
+  //  padding: 0px 5px;
+  //}
+
+  //#row4 {
+  //  padding-top: 40px;
+  //}
+
+  //.basicHeader {
+  //  font-size: 24px;
+  //}
+}
+
+@media (max-width: 992px) {
+  #logobutt {
+    padding-top: 10px;
+  }
+}

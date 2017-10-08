@@ -1,0 +1,20 @@
+/* Add here all your css styles (customizations) */
+.hamburger-inner {
+  background-color: #66a3ff;
+}
+
+#logoWording {
+  font-size: 20px;
+}
+
+@media (max-width: 576px) {
+  #logoWording {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 992px) {
+  #logobutt {
+    padding-top: 10px;
+  }
+}

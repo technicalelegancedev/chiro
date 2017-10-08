@@ -1,0 +1,27 @@
+/* Add here all your css styles (customizations) */
+.navbar-toggler {
+  padding: .90em .75em;
+}
+
+.hamburger-inner {
+  background-color: #66a3ff;
+}
+
+#logoWording {
+  font-size: 20px;
+}
+
+@media (max-width: 576px) {
+  #logoWording {
+    font-size: 15px;
+  }
+  .navbar-toggler {
+    padding: .70em .75em;
+  }
+}
+
+@media (max-width: 992px) {
+  #logobutt {
+    padding-top: 10px;
+  }
+}
